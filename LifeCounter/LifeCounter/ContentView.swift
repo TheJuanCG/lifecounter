@@ -37,7 +37,7 @@ struct ContentView: View {
                             print("buton pressed", player1Life)
                         }) {
                             Text("-")
-                        }
+                        }.padding()
 
                         
                         Button(action: {
@@ -45,7 +45,7 @@ struct ContentView: View {
                             print("buton pressed", player1Life)
                         }) {
                             Text("+")
-                        }
+                        }.padding()
                     }
                     
                     HStack {
@@ -55,7 +55,7 @@ struct ContentView: View {
                             print("buton pressed", player1Life)
                         }) {
                             Text("-5")
-                        }
+                        }.padding()
 
                         
                         Button(action: {
@@ -63,7 +63,7 @@ struct ContentView: View {
                             print("buton pressed", player1Life)
                         }) {
                             Text("+5")
-                        }
+                        }.padding()
                     }
                     
                     
