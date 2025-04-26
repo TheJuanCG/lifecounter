@@ -7,40 +7,53 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		319E907B2DB7297300EEEFA6 /* PBXContainerItemProxy */ = {
+		319E90B72DB8AF1B00EEEFA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 319E90652DB7296C00EEEFA6 /* Project object */;
+			containerPortal = 319E90982DB8AF1200EEEFA6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 319E906C2DB7296C00EEEFA6;
+			remoteGlobalIDString = 319E909F2DB8AF1300EEEFA6;
 			remoteInfo = LifeCounter;
 		};
-		319E90852DB7297300EEEFA6 /* PBXContainerItemProxy */ = {
+		319E90C12DB8AF1B00EEEFA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 319E90652DB7296C00EEEFA6 /* Project object */;
+			containerPortal = 319E90982DB8AF1200EEEFA6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 319E906C2DB7296C00EEEFA6;
+			remoteGlobalIDString = 319E909F2DB8AF1300EEEFA6;
 			remoteInfo = LifeCounter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		319E906D2DB7296C00EEEFA6 /* LifeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		319E907A2DB7297300EEEFA6 /* LifeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		319E90842DB7297300EEEFA6 /* LifeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		319E90A02DB8AF1300EEEFA6 /* LifeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		319E90B62DB8AF1B00EEEFA6 /* LifeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		319E90C02DB8AF1B00EEEFA6 /* LifeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		319E90C82DB8AF1B00EEEFA6 /* Exceptions for "LifeCounter" folder in "LifeCounter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 319E909F2DB8AF1300EEEFA6 /* LifeCounter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		319E906F2DB7296C00EEEFA6 /* LifeCounter */ = {
+		319E90A22DB8AF1300EEEFA6 /* LifeCounter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				319E90C82DB8AF1B00EEEFA6 /* Exceptions for "LifeCounter" folder in "LifeCounter" target */,
+			);
 			path = LifeCounter;
 			sourceTree = "<group>";
 		};
-		319E907D2DB7297300EEEFA6 /* LifeCounterTests */ = {
+		319E90B92DB8AF1B00EEEFA6 /* LifeCounterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LifeCounterTests;
 			sourceTree = "<group>";
 		};
-		319E90872DB7297300EEEFA6 /* LifeCounterUITests */ = {
+		319E90C32DB8AF1B00EEEFA6 /* LifeCounterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LifeCounterUITests;
 			sourceTree = "<group>";
@@ -48,21 +61,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		319E906A2DB7296C00EEEFA6 /* Frameworks */ = {
+		319E909D2DB8AF1300EEEFA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		319E90772DB7297300EEEFA6 /* Frameworks */ = {
+		319E90B32DB8AF1B00EEEFA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		319E90812DB7297300EEEFA6 /* Frameworks */ = {
+		319E90BD2DB8AF1B00EEEFA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		319E90642DB7296C00EEEFA6 = {
+		319E90972DB8AF1200EEEFA6 = {
 			isa = PBXGroup;
 			children = (
-				319E906F2DB7296C00EEEFA6 /* LifeCounter */,
-				319E907D2DB7297300EEEFA6 /* LifeCounterTests */,
-				319E90872DB7297300EEEFA6 /* LifeCounterUITests */,
-				319E906E2DB7296C00EEEFA6 /* Products */,
+				319E90A22DB8AF1300EEEFA6 /* LifeCounter */,
+				319E90B92DB8AF1B00EEEFA6 /* LifeCounterTests */,
+				319E90C32DB8AF1B00EEEFA6 /* LifeCounterUITests */,
+				319E90A12DB8AF1300EEEFA6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		319E906E2DB7296C00EEEFA6 /* Products */ = {
+		319E90A12DB8AF1300EEEFA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				319E906D2DB7296C00EEEFA6 /* LifeCounter.app */,
-				319E907A2DB7297300EEEFA6 /* LifeCounterTests.xctest */,
-				319E90842DB7297300EEEFA6 /* LifeCounterUITests.xctest */,
+				319E90A02DB8AF1300EEEFA6 /* LifeCounter.app */,
+				319E90B62DB8AF1B00EEEFA6 /* LifeCounterTests.xctest */,
+				319E90C02DB8AF1B00EEEFA6 /* LifeCounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		319E906C2DB7296C00EEEFA6 /* LifeCounter */ = {
+		319E909F2DB8AF1300EEEFA6 /* LifeCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 319E908E2DB7297300EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounter" */;
+			buildConfigurationList = 319E90C92DB8AF1B00EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounter" */;
 			buildPhases = (
-				319E90692DB7296C00EEEFA6 /* Sources */,
-				319E906A2DB7296C00EEEFA6 /* Frameworks */,
-				319E906B2DB7296C00EEEFA6 /* Resources */,
+				319E909C2DB8AF1300EEEFA6 /* Sources */,
+				319E909D2DB8AF1300EEEFA6 /* Frameworks */,
+				319E909E2DB8AF1300EEEFA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				319E906F2DB7296C00EEEFA6 /* LifeCounter */,
+				319E90A22DB8AF1300EEEFA6 /* LifeCounter */,
 			);
 			name = LifeCounter;
 			packageProductDependencies = (
 			);
 			productName = LifeCounter;
-			productReference = 319E906D2DB7296C00EEEFA6 /* LifeCounter.app */;
+			productReference = 319E90A02DB8AF1300EEEFA6 /* LifeCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		319E90792DB7297300EEEFA6 /* LifeCounterTests */ = {
+		319E90B52DB8AF1B00EEEFA6 /* LifeCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 319E90912DB7297300EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounterTests" */;
+			buildConfigurationList = 319E90CE2DB8AF1B00EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounterTests" */;
 			buildPhases = (
-				319E90762DB7297300EEEFA6 /* Sources */,
-				319E90772DB7297300EEEFA6 /* Frameworks */,
-				319E90782DB7297300EEEFA6 /* Resources */,
+				319E90B22DB8AF1B00EEEFA6 /* Sources */,
+				319E90B32DB8AF1B00EEEFA6 /* Frameworks */,
+				319E90B42DB8AF1B00EEEFA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				319E907C2DB7297300EEEFA6 /* PBXTargetDependency */,
+				319E90B82DB8AF1B00EEEFA6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				319E907D2DB7297300EEEFA6 /* LifeCounterTests */,
+				319E90B92DB8AF1B00EEEFA6 /* LifeCounterTests */,
 			);
 			name = LifeCounterTests;
 			packageProductDependencies = (
 			);
 			productName = LifeCounterTests;
-			productReference = 319E907A2DB7297300EEEFA6 /* LifeCounterTests.xctest */;
+			productReference = 319E90B62DB8AF1B00EEEFA6 /* LifeCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		319E90832DB7297300EEEFA6 /* LifeCounterUITests */ = {
+		319E90BF2DB8AF1B00EEEFA6 /* LifeCounterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 319E90942DB7297300EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounterUITests" */;
+			buildConfigurationList = 319E90D12DB8AF1B00EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounterUITests" */;
 			buildPhases = (
-				319E90802DB7297300EEEFA6 /* Sources */,
-				319E90812DB7297300EEEFA6 /* Frameworks */,
-				319E90822DB7297300EEEFA6 /* Resources */,
+				319E90BC2DB8AF1B00EEEFA6 /* Sources */,
+				319E90BD2DB8AF1B00EEEFA6 /* Frameworks */,
+				319E90BE2DB8AF1B00EEEFA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				319E90862DB7297300EEEFA6 /* PBXTargetDependency */,
+				319E90C22DB8AF1B00EEEFA6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				319E90872DB7297300EEEFA6 /* LifeCounterUITests */,
+				319E90C32DB8AF1B00EEEFA6 /* LifeCounterUITests */,
 			);
 			name = LifeCounterUITests;
 			packageProductDependencies = (
 			);
 			productName = LifeCounterUITests;
-			productReference = 319E90842DB7297300EEEFA6 /* LifeCounterUITests.xctest */;
+			productReference = 319E90C02DB8AF1B00EEEFA6 /* LifeCounterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		319E90652DB7296C00EEEFA6 /* Project object */ = {
+		319E90982DB8AF1200EEEFA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					319E906C2DB7296C00EEEFA6 = {
+					319E909F2DB8AF1300EEEFA6 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					319E90792DB7297300EEEFA6 = {
+					319E90B52DB8AF1B00EEEFA6 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 319E906C2DB7296C00EEEFA6;
+						TestTargetID = 319E909F2DB8AF1300EEEFA6;
 					};
-					319E90832DB7297300EEEFA6 = {
+					319E90BF2DB8AF1B00EEEFA6 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 319E906C2DB7296C00EEEFA6;
+						TestTargetID = 319E909F2DB8AF1300EEEFA6;
 					};
 				};
 			};
-			buildConfigurationList = 319E90682DB7296C00EEEFA6 /* Build configuration list for PBXProject "LifeCounter" */;
+			buildConfigurationList = 319E909B2DB8AF1200EEEFA6 /* Build configuration list for PBXProject "LifeCounter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 319E90642DB7296C00EEEFA6;
+			mainGroup = 319E90972DB8AF1200EEEFA6;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 319E906E2DB7296C00EEEFA6 /* Products */;
+			productRefGroup = 319E90A12DB8AF1300EEEFA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				319E906C2DB7296C00EEEFA6 /* LifeCounter */,
-				319E90792DB7297300EEEFA6 /* LifeCounterTests */,
-				319E90832DB7297300EEEFA6 /* LifeCounterUITests */,
+				319E909F2DB8AF1300EEEFA6 /* LifeCounter */,
+				319E90B52DB8AF1B00EEEFA6 /* LifeCounterTests */,
+				319E90BF2DB8AF1B00EEEFA6 /* LifeCounterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		319E906B2DB7296C00EEEFA6 /* Resources */ = {
+		319E909E2DB8AF1300EEEFA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		319E90782DB7297300EEEFA6 /* Resources */ = {
+		319E90B42DB8AF1B00EEEFA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		319E90822DB7297300EEEFA6 /* Resources */ = {
+		319E90BE2DB8AF1B00EEEFA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		319E90692DB7296C00EEEFA6 /* Sources */ = {
+		319E909C2DB8AF1300EEEFA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		319E90762DB7297300EEEFA6 /* Sources */ = {
+		319E90B22DB8AF1B00EEEFA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		319E90802DB7297300EEEFA6 /* Sources */ = {
+		319E90BC2DB8AF1B00EEEFA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +269,76 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		319E907C2DB7297300EEEFA6 /* PBXTargetDependency */ = {
+		319E90B82DB8AF1B00EEEFA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 319E906C2DB7296C00EEEFA6 /* LifeCounter */;
-			targetProxy = 319E907B2DB7297300EEEFA6 /* PBXContainerItemProxy */;
+			target = 319E909F2DB8AF1300EEEFA6 /* LifeCounter */;
+			targetProxy = 319E90B72DB8AF1B00EEEFA6 /* PBXContainerItemProxy */;
 		};
-		319E90862DB7297300EEEFA6 /* PBXTargetDependency */ = {
+		319E90C22DB8AF1B00EEEFA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 319E906C2DB7296C00EEEFA6 /* LifeCounter */;
-			targetProxy = 319E90852DB7297300EEEFA6 /* PBXContainerItemProxy */;
+			target = 319E909F2DB8AF1300EEEFA6 /* LifeCounter */;
+			targetProxy = 319E90C12DB8AF1B00EEEFA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		319E908C2DB7297300EEEFA6 /* Debug */ = {
+		319E90CA2DB8AF1B00EEEFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97VZ343864;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifeCounter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.juancg.LifeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		319E90CB2DB8AF1B00EEEFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97VZ343864;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifeCounter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.juancg.LifeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		319E90CC2DB8AF1B00EEEFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,7 +402,7 @@
 			};
 			name = Debug;
 		};
-		319E908D2DB7297300EEEFA6 /* Release */ = {
+		319E90CD2DB8AF1B00EEEFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,63 +459,7 @@
 			};
 			name = Release;
 		};
-		319E908F2DB7297300EEEFA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97VZ343864;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.juancg.LifeCounter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		319E90902DB7297300EEEFA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97VZ343864;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.juancg.LifeCounter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		319E90922DB7297300EEEFA6 /* Debug */ = {
+		319E90CF2DB8AF1B00EEEFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,7 +478,7 @@
 			};
 			name = Debug;
 		};
-		319E90932DB7297300EEEFA6 /* Release */ = {
+		319E90D02DB8AF1B00EEEFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +497,7 @@
 			};
 			name = Release;
 		};
-		319E90952DB7297300EEEFA6 /* Debug */ = {
+		319E90D22DB8AF1B00EEEFA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -501,7 +514,7 @@
 			};
 			name = Debug;
 		};
-		319E90962DB7297300EEEFA6 /* Release */ = {
+		319E90D32DB8AF1B00EEEFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -521,43 +534,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		319E90682DB7296C00EEEFA6 /* Build configuration list for PBXProject "LifeCounter" */ = {
+		319E909B2DB8AF1200EEEFA6 /* Build configuration list for PBXProject "LifeCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				319E908C2DB7297300EEEFA6 /* Debug */,
-				319E908D2DB7297300EEEFA6 /* Release */,
+				319E90CC2DB8AF1B00EEEFA6 /* Debug */,
+				319E90CD2DB8AF1B00EEEFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		319E908E2DB7297300EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounter" */ = {
+		319E90C92DB8AF1B00EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				319E908F2DB7297300EEEFA6 /* Debug */,
-				319E90902DB7297300EEEFA6 /* Release */,
+				319E90CA2DB8AF1B00EEEFA6 /* Debug */,
+				319E90CB2DB8AF1B00EEEFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		319E90912DB7297300EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounterTests" */ = {
+		319E90CE2DB8AF1B00EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				319E90922DB7297300EEEFA6 /* Debug */,
-				319E90932DB7297300EEEFA6 /* Release */,
+				319E90CF2DB8AF1B00EEEFA6 /* Debug */,
+				319E90D02DB8AF1B00EEEFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		319E90942DB7297300EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounterUITests" */ = {
+		319E90D12DB8AF1B00EEEFA6 /* Build configuration list for PBXNativeTarget "LifeCounterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				319E90952DB7297300EEEFA6 /* Debug */,
-				319E90962DB7297300EEEFA6 /* Release */,
+				319E90D22DB8AF1B00EEEFA6 /* Debug */,
+				319E90D32DB8AF1B00EEEFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 319E90652DB7296C00EEEFA6 /* Project object */;
+	rootObject = 319E90982DB8AF1200EEEFA6 /* Project object */;
 }
