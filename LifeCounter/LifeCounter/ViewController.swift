@@ -37,26 +37,33 @@ class ViewController: UIViewController {
     
     func createPlayerView(_ playerNumber: Int) -> UIView {
         let playerView = UIStackView()
-        playerView.spacing = 8
+        playerView.spacing = 1
         playerView.axis = .vertical
         playerView.alignment = .center
         
         let nameLabel = UILabel()
         nameLabel.text = "Player \(playerNumber)"
+        nameLabel.setContentCompressionResistancePriority(.required, for: .vertical)
+
         
         let lifeLabel = UILabel()
         lifeLabel.text = "Life: 20"
         // use to identify later
         lifeLabel.tag = 100 + playerNumber
+        lifeLabel.setContentCompressionResistancePriority(.required, for: .vertical)
+
         
         let changeAmountField = UITextField()
         changeAmountField.placeholder = "Amount"
         changeAmountField.keyboardType = .numberPad
+        changeAmountField.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        changeAmountField.heightAnchor.constraint(equalToConstant: 24).isActive = true
+        changeAmountField.setContentCompressionResistancePriority(.required, for: .vertical)
         
         
         let buttonStack = UIStackView()
         buttonStack.axis = .horizontal
-        buttonStack.spacing = 8
+        buttonStack.spacing = 2
         
         let plusButton = UIButton(type: .system)
         plusButton.setTitle("+", for: .normal)
@@ -69,6 +76,15 @@ class ViewController: UIViewController {
         minusButton.addAction(UIAction { _ in
             self.changeLife(for: playerNumber, isAdding: false, textField: changeAmountField, lifeLabel: lifeLabel)
         }, for: .touchUpInside)
+        
+        // Shrinking for more size
+        nameLabel.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
+        lifeLabel.font = UIFont.systemFont(ofSize: 12)
+        plusButton.titleLabel?.font = UIFont.systemFont(ofSize: 12)
+        minusButton.titleLabel?.font = UIFont.systemFont(ofSize: 12)
+        plusButton.heightAnchor.constraint(equalToConstant: 24).isActive = true
+        minusButton.heightAnchor.constraint(equalToConstant: 24).isActive = true
+
         
         buttonStack.addArrangedSubview(plusButton)
         buttonStack.addArrangedSubview(minusButton)
@@ -97,6 +113,7 @@ class ViewController: UIViewController {
         if players[playerNumber - 1] <= 0 {
             let statusLabel = UILabel()
             statusLabel.text = "Player \(playerNumber) LOSES!"
+            playersStackView.addArrangedSubview(statusLabel)
         }
 
     }
