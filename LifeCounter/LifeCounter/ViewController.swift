@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var playersStackView: UIStackView!
     
+    @IBOutlet weak var addPlayerButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,6 +84,7 @@ class ViewController: UIViewController {
     }
     
     func changeLife(for playerNumber: Int, isAdding: Bool, textField: UITextField, lifeLabel: UILabel) {
+        addPlayerButton.isEnabled = false
         let amount = Int(textField.text ?? "") ?? 0
         
         if isAdding {
@@ -91,6 +93,11 @@ class ViewController: UIViewController {
             players[playerNumber - 1] -= amount
         }
         lifeLabel.text = "Life: \(players[playerNumber - 1])"
+        
+        if players[playerNumber - 1] <= 0 {
+            let statusLabel = UILabel()
+            statusLabel.text = "Player \(playerNumber) LOSES!"
+        }
 
     }
     

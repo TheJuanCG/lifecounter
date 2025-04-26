@@ -62,6 +62,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="addPlayerButton" destination="hXC-Y2-If0" id="pqx-km-Ya1"/>
                         <outlet property="playersStackView" destination="SRk-Rj-6UF" id="HuK-nr-6ba"/>
                     </connections>
                 </viewController>
